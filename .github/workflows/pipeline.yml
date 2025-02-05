@@ -8,7 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python hello.py
-
     build:
       needs: [test]
       runs-on: ubuntu-latest
